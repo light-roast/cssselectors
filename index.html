@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors - Cheat sheet</title>
+    <link rel="stylesheet" href="./resources/css/index.css" type="text/css">
+</head>
+<body>
+    <heading>
+        <h1>CSS Selectors - Cheat sheet</h1>
+        <h2>Diferentes tipos de selectores en CSS</h2>
+    </heading>
+    <section>
+        <table>
+            <thead>
+                <th>Selector</th>
+                <th>Descripción</th>
+                <th>Examples</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Simple selector</td>
+                    <td>Selecciona elementos html basado en su nombre, id o clase</td>
+                    <td>
+                        <ul>
+                            <li>element-name</li>
+                            <li>element-name.class-name</li>
+                            <li>.class-name</li>
+                            <li>#id-name</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Combinator selectors</td>
+                    <td>Selecciona elementos basado en una relación específica entre estos</td>
+                    <td>
+                        <ul>
+                            <li>Descendant selector (space)</li>
+                            <li>child selector (&gt;)</li>
+                            <li>adjacent sibling selector (+)</li>
+                            <li>general sibling selector (~)</li>
+                        </ul>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pseudo class selectors</td>
+                    <td>Selecciona elementos basado en un cierto estado o interacción del usuario con estos</td>
+                    <td>
+                        <ul>
+                            <li>a:link</li>
+                            <li>a:visited</li>
+                            <li>a:hover</li>
+                            <li>a:active</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pseudo-elements selectors</td>
+                    <td>Selecciona y da estilo a una parte de un elemento</td>
+                    <td>
+                        <ul>
+                            <li>p:first-letter,</li>
+                            <li>p:first-line</li>
+                            <li>h1::before</li>
+                            <li>h2::after</li>
+                            <li>p::selection</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Attribute selector</td>
+                    <td>Selecciona elementos basado en un atributo en un valor de atributo</td>
+                    <td>
+                        <ul>
+                            <li>a[attribute]</li>
+                            <li>p[attribute="value"]</li>
+                            <li>h1[attribute~="value1 value2 value3"]</li>
+                            <li>[attribute|="value"] -&gt; Selecciona el elemento cuyo atributo tenga ese valor de primero</li>
+                            <li>[attribute$="value"] -&gt; Selecciona el elemento cuyo atributo tenga ese valor al final</li></li>
+                            <li>[attribute^="value"] -&gt; Selecciona el elemento cuyo atributo tenga el valor especificado o parte de él (value-set, value1, etc) </li>
+                            <li>[attribute*="value"] -&gt; Selecciona el elemento cuyo atributo tenga el valor especificad, así sea en una parte</li>
+                        </ul>
+
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
