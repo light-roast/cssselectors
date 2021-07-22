@@ -1,0 +1,35 @@
+table {
+    border: 2px solid rgb(47, 25, 58);
+    width: 650px;
+    margin: 0 auto;
+}
+
+thead {
+    background-color: plum;
+}
+
+tbody {
+    background-color: rgb(83, 12, 83);
+}
+
+td {
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+body {
+    background-color:#282a36;
+}
+
+h1 {
+    color: plum;
+    text-align: center;
+    font-family: monospace;
+}
+
+h2 {
+    color: rgb(122, 87, 122);
+    text-align: center;
+    font-family: monospace;
+}
+
